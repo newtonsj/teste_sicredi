@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/voting_db
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+  task:
+    scheduling:
+      pool:
+        size: 5
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic:
+      resultado-votacao: resultado-votacao-topic
