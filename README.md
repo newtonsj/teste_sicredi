@@ -23,9 +23,12 @@ O **Sessao Service** é um microsserviço para gerenciar sessões de votação. 
 
 ## Para rodar localmente utilizando o Docker 
  - Tenha instalado o Docker localmente
- - Clone a aplicação executando o seguinte comando git: 
- - Acesse o diretório sessao-service e execute o comando "mvn clean package"
- - No direório da aplicação, execute o comando docker compose up -d
+ - Clone a aplicação executando o seguinte comando git:
+### https://github.com/newtonsj/teste_sicredi.git
+ - Acesse o diretório sessao-service e execute o comando
+### mvn clean package
+ - No direório da aplicação, execute o comando
+### docker compose up -d
 
 ## Documentação da API
 Acesse a documentação Swagger em:
